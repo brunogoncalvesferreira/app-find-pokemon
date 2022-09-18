@@ -9,8 +9,6 @@ button.addEventListener("click", (e) => {
 
     const api = `https://pokeapi.co/api/v2/pokemon/${input.value}`
 
-    console.log(api)
-
     fetch(api)
     .then(response => response.json())
     .then(data => {
@@ -22,7 +20,6 @@ button.addEventListener("click", (e) => {
         <span>Tipo: ${data.types[0].type.name}</span>
 
         `
-        console.log(info)
 
         input.value = ""
         input.focus()
