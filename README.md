@@ -14,7 +14,7 @@ Projeto construido com o objetivo em simular o pokedex do famoso desenho Japonê
 
 ![preview](./.github/preview.png)
 
-[Clique aqui para acessar](https://brunogoncalvesferreira.github.io/NLWeSports/)
+[Clique aqui para acessar](https://brunogoncalvesferreira.github.io/pokedex/)
 
 <br>
 
