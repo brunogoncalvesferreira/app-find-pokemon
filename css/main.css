@@ -25,7 +25,7 @@ body {
 #page {
     max-width: 600px;
     width: 90%;
-    height: 550px;
+    height: auto;
     margin: 0 auto;
     padding: 1rem;
 
@@ -39,6 +39,11 @@ header {
     padding-bottom: 1rem;
     border-bottom: 1px solid var(--blue);
 }
+
+header img {
+    width: 100%;
+}
+
 
 label {
     display: block;
@@ -121,5 +126,10 @@ button:hover {
 
 footer {
     margin-top: 2rem;
-    color: #dcdcdc;
+    text-align: center;
+}
+
+footer p {
+    font-weight: 700;
+    color: var(--yellow);
 }
