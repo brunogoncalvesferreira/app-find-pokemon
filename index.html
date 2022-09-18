@@ -1,18 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="57x57"  href="./assets/favicons/apple-touch-icon-57x57.png">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="theme-color" content="#ffffff">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="57x57"
+      href="./assets/favicons/apple-touch-icon-57x57.png"
+    />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
     <title>Pokedex</title>
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+
+    <div id="page">
+
+        <header>
+            <img src="./assets/pokemon_logo.svg" alt="Logo pokémon">
+        </header>
+       
+        <div id="form">
+            <form action="">
+                <label for="identification">Nome ou Número do Pokémon</label>
+                <input type="text" name="identification" id="input" placeholder="Exemplo: Pikachu ou 25">
+                <button type="submit">Buscar Pokémon</button>
+            </form>
+        </div>
+
+        <div id="image-pokemon">
+            <img src="./assets/132.png" alt="Imagem do pokémon">
+        </div>
+        
+        <div id="info">
+            <span>Nome: Pikachu</span>
+            <span>Type: Eletric</span>
+        </div>
+
+    </div>
+    <footer><p>Bruno Gonçalves Ferreira</p></footer>
 
     <script src="./js/scripts.js"></script>
-</body>
+  </body>
 </html>
