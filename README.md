@@ -31,7 +31,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Na aplicação você consegue buscar o Pokémon pelo nome ou pelo seu número que irá te mostrar a imagem do Pokémon seu nome é seu tipo.
+Na aplicação você consegue buscar o Pokémon pelo nome ou pelo seu número que irá te mostrar a foto e o tipo do Pokémon.
 
 <br>
 
