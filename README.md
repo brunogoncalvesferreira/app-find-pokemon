@@ -2,7 +2,7 @@
 
 > Descrição
 
-Projeto construido com o objetivo em simular o pokedex do famoso desenho Japonês POKÉMON.
+Projeto construido com o objetivo em simular o pokedex do famoso desenho Japonês POKÉMON, conseguimos funcionar o projeto com API "https://pokeapi.co/".
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
